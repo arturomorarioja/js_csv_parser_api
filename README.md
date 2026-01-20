@@ -3,7 +3,7 @@ API that returns a parsed sample csv file with information about fake Danish com
 
 ## Usage
 1. Start the Docker container: `docker-compose up -d`
-2. In a user agent (browser, Postman, etc.), access `http://localhost:8080/parse/` plus the route of the csv file, relative to the container root (e.g., for the test csv file in `/data`, access `http://localhost:8080/parse/test_data/danish_companies.csv`).
+2. In a user agent (browser, Postman, etc.), access `http://localhost:8080/parse/` plus the route of the csv file, relative to the container root (e.g., for the test csv file in `/test_data`, access `http://localhost:8080/parse/test_data/danish_companies.csv`).
 3. Finalise the application by stopping the container: `docker-compose down`
 
 ## Tools
